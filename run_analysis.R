@@ -31,4 +31,4 @@ result <- data %>%
   group_by(activity, subject) %>%
   summarise_all(funs(mean))
 
-write.csv(result, "result.csv")
+write.table(result, "result.txt", row.names = FALSE)
