@@ -17,10 +17,13 @@ The description of the original dataset reads as follows
 
 # This repository contains the following files:
 * run_analysis.R
+
 R script that takes the original data, merges test and train data and enriches the raw measurements with meaningful column names and human readable activity names. Only the mean and standard deviation data is preserved and an average for each variable is computed (grouped by subject and activity type).
 
 * result.csv
+
 Contains the result of running run_analysis.R on the original dataset
 
 * codebook.txt
+
 Description of the variables based on the codebook for the original dataset
